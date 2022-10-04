@@ -18,7 +18,7 @@ public abstract class BaseTest {
         private WebDriverWait driverWait;
         @BeforeClass
         public void beforeClass(){
-                System.setProperty("webdriver.chrome.driver", "D:\\bootcamp\\browserDrivers\\vhromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "D:\\bootcamp\\browserDrivers\\chromedriver.exe");
                 driver = new ChromeDriver();
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
                 logInPage = new LogInPage(driver, driverWait);

@@ -17,12 +17,23 @@ public class LogInTests extends BaseTest{
     private WebDriver driver;
     private WebDriverWait driverWait;
     @Test
-    public void VisitsTheLoginPage(){
+    public void VisitsTheLoginPage() {
         String expectedResult = "/login";
         homePage.logInButton();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         //prototype. indexOf()
         String logInUrl = driver.getCurrentUrl();
-
+        boolean actualResult = false;
+        if (logInUrl.contains(expectedResult)) {
+            actualResult = true;
+        }else {
+            actualResult = false;
+        }
+        Assert.assertTrue(actualResult);
 
     }
 
