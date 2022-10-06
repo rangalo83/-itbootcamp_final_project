@@ -14,8 +14,8 @@ import java.time.Duration;
 public abstract class BaseTest {
         protected LogInPage logInPage;
         protected HomePage homePage;
-        private WebDriver driver;
-        private WebDriverWait driverWait;
+        protected WebDriver driver;
+        protected WebDriverWait driverWait;
         @BeforeClass
         public void beforeClass(){
                 System.setProperty("webdriver.chrome.driver", "D:\\bootcamp\\browserDrivers\\chromedriver.exe");
@@ -32,7 +32,7 @@ public abstract class BaseTest {
 
         @BeforeMethod
                 public void beforeMethod() {
-                driver.get("https://vue-demo.daniel-avellaneda.com/ ");
+                driver.get("https://vue-demo.daniel-avellaneda.com ");
                 logInPage = new LogInPage(driver, driverWait);
                 homePage = new HomePage(driver, driverWait);
         }

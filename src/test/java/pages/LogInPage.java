@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LogInPage extends BasePage {
 
-    private By emailField = By.id("email");
-    private By passwordField = By.id("password");
-    private By submitLogIn = By.xpath("//*[@id=\"app\"]/div/main/div/div[2]/div/div/div[3]/span/form/div/div[3]/button");
+    protected By emailField = By.id("email");
+    protected By passwordField = By.id("password");
+    protected By submitLogIn = By.xpath("//*[@id='app']/div/main/div/div[2]/div/div/div[3]/span/form/div/div[3]/button");
 
 
     public LogInPage(WebDriver driver, WebDriverWait driverWait) {
@@ -26,7 +26,6 @@ public class LogInPage extends BasePage {
         return getDriver().findElement(submitLogIn);
     }
     public void enterLogInData(){
-
         getEmailField().sendKeys("admin@admin.com");
         getPasswordField().sendKeys("12345");
         getSubmitLogIn().click();
