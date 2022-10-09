@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/VisitsTheSignupPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,42 +54,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Logout">
-    <configuration name="DisplayErrorsWhenPasswordIsWrong.DisplayErrorsWhenPasswordIsWrongTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.logInTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.DisplayErrorsWhenPasswordIsWrong" />
-      <option name="METHOD_NAME" value="DisplayErrorsWhenPasswordIsWrongTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.logInTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.VisitsTheSignupPage.visitTheSignUpPageTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -142,13 +107,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitsTheSignupPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.signUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.signUpTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.VisitsTheSignupPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitsTheSignupPage.visitTheSignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.signUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.signUpTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.VisitsTheSignupPage" />
+      <option name="METHOD_NAME" value="visitTheSignUpPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VisitsTheSignupPage.visitTheSignUpPageTest" />
+        <item itemvalue="TestNG.VisitsTheSignupPage" />
         <item itemvalue="TestNG.Logout" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.Login.loginTest" />
-        <item itemvalue="TestNG.DisplayErrorsWhenPasswordIsWrong.DisplayErrorsWhenPasswordIsWrongTest" />
-        <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665312827858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;Commiting LogoutTest&quot;">
+      <created>1665313678857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665313678857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +238,7 @@
     <MESSAGE value="&quot;Commiting DisplayErrorsWhenUserDoesNotExistTest&quot;" />
     <MESSAGE value="&quot;Commiting DisplayErrorsWhenPasswordIsWrongTest&quot;" />
     <MESSAGE value="&quot;Commiting LoginTest&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting LoginTest&quot;" />
+    <MESSAGE value="&quot;Commiting LogoutTest&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting LogoutTest&quot;" />
   </component>
 </project>
