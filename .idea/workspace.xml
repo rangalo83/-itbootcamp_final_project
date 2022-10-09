@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplayErrorsWhenPasswordIsWrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplayErrorsWhenPasswordIsWrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +54,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="ChecksInputTypes" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.logInTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.ChecksInputTypes" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Logout">
     <configuration name="DisplayErrorsWhenPasswordIsWrong.DisplayErrorsWhenPasswordIsWrongTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -142,13 +125,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Logout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.logInTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.logInTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.logInTests.Logout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Logout" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.Login.loginTest" />
         <item itemvalue="TestNG.DisplayErrorsWhenPasswordIsWrong.DisplayErrorsWhenPasswordIsWrongTest" />
         <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.ChecksInputTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665311412385</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Commiting LoginTest&quot;">
+      <created>1665312827858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312827858</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="&quot;Commiting Checks input types&quot;" />
     <MESSAGE value="&quot;Commiting DisplayErrorsWhenUserDoesNotExistTest&quot;" />
     <MESSAGE value="&quot;Commiting DisplayErrorsWhenPasswordIsWrongTest&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting DisplayErrorsWhenPasswordIsWrongTest&quot;" />
+    <MESSAGE value="&quot;Commiting LoginTest&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting LoginTest&quot;" />
   </component>
 </project>
