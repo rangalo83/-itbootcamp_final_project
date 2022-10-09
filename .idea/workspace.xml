@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/DisplaysErrorsWhenUserAlreadyExists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksInputTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksLoginInputTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/signUpTests/CheckInputTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/CheckSignUpPageInputTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.CheckSignUpPageInputTypes">
+  <component name="RunManager" selected="TestNG.tests">
     <configuration name="CheckSignUpPageInputTypes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -70,24 +66,6 @@
       <option name="PACKAGE_NAME" value="tests.signUpTests" />
       <option name="MAIN_CLASS_NAME" value="tests.signUpTests.CheckSignUpPageInputTypes" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckSignUpPageInputTypes.checkSignUpInputTypesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.signUpTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.signUpTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.CheckSignUpPageInputTypes" />
-      <option name="METHOD_NAME" value="checkSignUpInputTypesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,25 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChecksLoginInputTypes.CheckInputTypesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.logInTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.ChecksLoginInputTypes" />
-      <option name="METHOD_NAME" value="CheckInputTypesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisitsTheSignupPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplaysErrorsWhenUserAlreadyExists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +98,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.signUpTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.VisitsTheSignupPage" />
+      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.DisplaysErrorsWhenUserAlreadyExists" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplaysErrorsWhenUserAlreadyExists.DisplayErrorsWhenUserAlredyExistTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.signUpTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.signUpTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.DisplaysErrorsWhenUserAlreadyExists" />
+      <option name="METHOD_NAME" value="DisplayErrorsWhenUserAlredyExistTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.tests" />
+        <item itemvalue="TestNG.DisplaysErrorsWhenUserAlreadyExists" />
+        <item itemvalue="TestNG.DisplaysErrorsWhenUserAlreadyExists.DisplayErrorsWhenUserAlredyExistTest" />
         <item itemvalue="TestNG.CheckSignUpPageInputTypes" />
         <item itemvalue="TestNG.ChecksLoginInputTypes" />
-        <item itemvalue="TestNG.CheckSignUpPageInputTypes.checkSignUpInputTypesTest" />
-        <item itemvalue="TestNG.ChecksLoginInputTypes.CheckInputTypesTest" />
-        <item itemvalue="TestNG.VisitsTheSignupPage" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665328966853</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;Commiting checkSignUpInputTypesTest &quot;">
+      <created>1665331238013</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665331238013</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +267,7 @@
     <MESSAGE value="&quot;Commiting LogoutTest&quot;" />
     <MESSAGE value="&quot;Commiting visit TheSignUpPageTest &quot;" />
     <MESSAGE value="&quot;Commiting SignUp page &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting SignUp page &quot;" />
+    <MESSAGE value="&quot;Commiting checkSignUpInputTypesTest &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting checkSignUpInputTypesTest &quot;" />
   </component>
 </project>
