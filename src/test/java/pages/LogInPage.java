@@ -8,8 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LogInPage extends BasePage {
 
-    protected By emailField = By.id("email");
-    protected By passwordField = By.id("password");
+
     protected By submitLogIn = By.xpath("//*[@id='app']/div/main/div/div[2]/div/div/div[3]/span/form/div/div[3]/button");
     Faker faker = new Faker();
 

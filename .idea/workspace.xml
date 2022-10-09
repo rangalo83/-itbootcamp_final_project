@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/VisitsTheSignupPage.java" afterDir="false" />
+    <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="&quot;Commiting visit TheSignUpPageTest &quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/CheckInputTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,25 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.VisitsTheSignupPage.visitTheSignUpPageTest">
+  <component name="RunManager" selected="TestNG.ChecksInputTypes.CheckInputTypesTest">
+    <configuration name="ChecksInputTypes.CheckInputTypesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.logInTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.logInTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.logInTests.ChecksInputTypes" />
+      <option name="METHOD_NAME" value="CheckInputTypesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -66,24 +86,6 @@
       <option name="PACKAGE_NAME" value="tests.logInTests" />
       <option name="MAIN_CLASS_NAME" value="tests.logInTests.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.logInTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.Login" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VisitsTheSignupPage.visitTheSignUpPageTest" />
+        <item itemvalue="TestNG.ChecksInputTypes.CheckInputTypesTest" />
         <item itemvalue="TestNG.VisitsTheSignupPage" />
+        <item itemvalue="TestNG.VisitsTheSignupPage.visitTheSignUpPageTest" />
         <item itemvalue="TestNG.Logout" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.Login.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665313678857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Commiting visit TheSignUpPageTest &quot;">
+      <created>1665314744126</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665314744126</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;Commiting visit TheSignUpPageTest &quot;">
+      <created>1665314810477</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665314810477</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +255,7 @@
     <MESSAGE value="&quot;Commiting DisplayErrorsWhenPasswordIsWrongTest&quot;" />
     <MESSAGE value="&quot;Commiting LoginTest&quot;" />
     <MESSAGE value="&quot;Commiting LogoutTest&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting LogoutTest&quot;" />
+    <MESSAGE value="&quot;Commiting visit TheSignUpPageTest &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting visit TheSignUpPageTest &quot;" />
   </component>
 </project>
