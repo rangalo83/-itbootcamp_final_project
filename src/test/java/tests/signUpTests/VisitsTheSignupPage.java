@@ -11,7 +11,7 @@ public class VisitsTheSignupPage extends BaseTest {
     @Test
 
     public void visitTheSignUpPageTest() throws InterruptedException {
-    homePage.signUpButton();
+        homePage.signUpButton();
         Thread.sleep(3000);
         String expectedResult = "/signup";
         String signUpPageUrl = driver.getCurrentUrl();
