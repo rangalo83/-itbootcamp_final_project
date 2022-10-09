@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksInputTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/LogInTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksInputTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksInputTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +48,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -56,7 +59,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ChecksInputTypes.CheckInprutTypesTest">
+  <component name="RunManager" selected="TestNG.DisplaysErrorsWhenUserDoesNotExist">
     <configuration name="ChecksInputTypes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -92,6 +95,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChecksInputTypes.CheckInputTypesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.logInTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.logInTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.logInTests.ChecksInputTypes" />
+      <option name="METHOD_NAME" value="CheckInputTypesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplaysErrorsWhenUserDoesNotExist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.logInTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.logInTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.logInTests.DisplaysErrorsWhenUserDoesNotExist" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogInTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -109,30 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInTests.VisitsTheLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.logInTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.logInTests.LogInTests" />
-      <option name="METHOD_NAME" value="VisitsTheLoginPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ChecksInputTypes.CheckInprutTypesTest" />
-        <item itemvalue="TestNG.ChecksInputTypes" />
+        <item itemvalue="TestNG.DisplaysErrorsWhenUserDoesNotExist" />
         <item itemvalue="TestNG.LogInTests" />
-        <item itemvalue="TestNG.LogInTests.VisitsTheLoginPage" />
+        <item itemvalue="TestNG.ChecksInputTypes" />
+        <item itemvalue="TestNG.ChecksInputTypes.CheckInputTypesTest" />
+        <item itemvalue="TestNG.ChecksInputTypes.CheckInprutTypesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664914746602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Commiting Checks input types&quot;">
+      <created>1665082038188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665082038188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Commit pom and BasePage&quot;" />
     <MESSAGE value="&quot;Commiting Home Page, Login Page, Base Test and login testPage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting Home Page, Login Page, Base Test and login testPage&quot;" />
+    <MESSAGE value="&quot;Commiting Checks input types&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting Checks input types&quot;" />
   </component>
 </project>
