@@ -12,7 +12,7 @@ Verifikovati da polje za unos lozinke za atribut type ima vrednost password
 
 
  */
-public class ChecksInputTypes extends BaseTest {
+public class ChecksLoginInputTypes extends BaseTest {
 
 
     @Test

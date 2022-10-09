@@ -8,21 +8,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LogInPage extends BasePage {
 
-
     protected By submitLogIn = By.xpath("//*[@id='app']/div/main/div/div[2]/div/div/div[3]/span/form/div/div[3]/button");
-    Faker faker = new Faker();
+    protected Faker faker = new Faker();
 
     public LogInPage(WebDriver driver, WebDriverWait driverWait) {
         super(driver, driverWait);
     }
 
-    public WebElement getEmailField() {
-        return getDriver().findElement(emailField);
-    }
 
-    public WebElement getPasswordField() {
-        return getDriver().findElement(passwordField);
-    }
 
     public WebElement getSubmitLogIn() {
         return getDriver().findElement(submitLogIn);

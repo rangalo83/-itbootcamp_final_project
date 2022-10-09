@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class BasePage {
@@ -22,5 +23,12 @@ public abstract class BasePage {
 
     public WebDriverWait getDriverWait() {
         return driverWait;
+    }
+    public WebElement getEmailField() {
+        return getDriver().findElement(emailField);
+    }
+
+    public WebElement getPasswordField() {
+        return getDriver().findElement(passwordField);
     }
 }

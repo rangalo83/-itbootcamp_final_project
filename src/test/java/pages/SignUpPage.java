@@ -19,4 +19,5 @@ public class SignUpPage extends BasePage{
     public WebElement getConfirmPassword() {
         return getDriver().findElement(confirmPassword);
     }
+
 }
