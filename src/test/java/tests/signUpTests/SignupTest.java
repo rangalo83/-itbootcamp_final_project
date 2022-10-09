@@ -17,14 +17,10 @@ public class SignupTest extends BaseTest {
     Verifikovati da dijalog za obavestenje sadrzi tekst IMPORTANT: Verify your account
     */
     @Test
-    public void verifyYourAccountTest() {
+    public void verifyYourAccountTest() throws InterruptedException {
         homePage.signUpButton();
         signUpPage.signUpDataNameLastName();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        Thread.sleep(2000);
         WebElement verifyYourAccountBox = driver.findElement(By.xpath("//*[@id='app']/div[4]/div/div/div[1]"));
         String expectedResult = "IMPORTANT: Verify your account";
         String actualResults = verifyYourAccountBox.getText();

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/SignupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/signUpTests/SignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/SignupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SignupTest">
+  <component name="RunManager" selected="TestNG.SignupTest.verifyYourAccountTest">
     <configuration name="DisplaysErrorsWhenUserDoesNotExist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -142,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignupTest" />
         <item itemvalue="TestNG.SignupTest.verifyYourAccountTest" />
         <item itemvalue="TestNG.tests" />
+        <item itemvalue="TestNG.SignupTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.DisplaysErrorsWhenUserDoesNotExist" />
       </list>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665336611861</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&quot;Commiting SignUpTest&quot;">
+      <created>1665348415330</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665348415330</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +282,7 @@
     <MESSAGE value="&quot;Commiting SignUp page &quot;" />
     <MESSAGE value="&quot;Commiting checkSignUpInputTypesTest &quot;" />
     <MESSAGE value="&quot;Commiting DisplaysErrorsWhenUserAlreadyExistsTest &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting DisplaysErrorsWhenUserAlreadyExistsTest &quot;" />
+    <MESSAGE value="&quot;Commiting SignUpTest&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting SignUpTest&quot;" />
   </component>
 </project>
