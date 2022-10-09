@@ -44,4 +44,12 @@ public class LogInPage extends BasePage {
         getSubmitLogIn().click();
 
     }
+
+    public void enterValidEmailInvalidPassword(){
+        String email = "admin@admin.com";
+        String fakePassword = faker.internet().password();
+        getEmailField().sendKeys(email);
+        getPasswordField().sendKeys(fakePassword);
+        getSubmitLogIn().click();
+    }
 }
