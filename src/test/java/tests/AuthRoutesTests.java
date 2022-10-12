@@ -17,18 +17,30 @@ public class AuthRoutesTests extends BaseTest {
         Assert.assertTrue(actualResult.contains(expectedResult));
 
     }
+
     @Test
-    public void forbidsVisitsToProfileUrlIfNotAuthenticated(){
-        /*
-        assert:
-        Ucitati /profile stranu
-        Verifikovati da se u url-u stranice javlja ruta /login
-        */
+    public void forbidsVisitsToProfileUrlIfNotAuthenticated() {
+    /*
+    assert:
+    Load /profile page
+    Verify that URL contains  /login route
+    */
         driver.get("https://vue-demo.daniel-avellaneda.com/profile");
         String expectedResult = "/login";
         String actualResult = driver.getCurrentUrl();
         Assert.assertTrue(actualResult.contains(expectedResult));
     }
 
-
+    @Test
+    public void forbidsVisitsToAdminCitiesUrlIfNotAuthenticated() {
+    /*
+    assert:
+    Ucitati /admin/cities stranu
+    Verifikovati da se u url-u stranice javlja ruta /login
+    */
+        driver.get("https://vue-demo.daniel-avellaneda.com/admin/cities");
+        String expectedResult = "/login";
+        String actualResult = driver.getCurrentUrl();
+        Assert.assertTrue(actualResult.contains(expectedResult));
+    }
 }
