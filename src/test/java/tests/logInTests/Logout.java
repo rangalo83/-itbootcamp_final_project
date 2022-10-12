@@ -18,7 +18,9 @@ public class Logout extends BaseTest {
     @Test
     public void logoutTest() throws InterruptedException {
         homePage.logInButton();
-        logInPage.enterLogInData();
+        String email = "admin@admin.com";
+        String password = "12345";
+        logInPage.enterLogInData(email, password);
         Thread.sleep(3000);
         WebElement logoutButton = driver.findElement(By.xpath("//*[@id='app']/div[1]/div/header/div/div[3]/button[1]"));
         Assert.assertTrue(logoutButton.isDisplayed());

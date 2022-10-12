@@ -17,11 +17,11 @@ public class DisplaysErrorsWhenUserDoesNotExist extends BaseTest {
     @Test
     public void DisplaysErrorsWhenUserDoesNotExistTest() /*throws InterruptedException*/ {
         homePage.logInButton();
-        logInPage.enterFakeLoginData();
+        String fakeEmail = faker.internet().emailAddress();
+        String fakePassword = faker.internet().password();
+        logInPage.enterLogInData(fakeEmail, fakePassword);
         WebElement userNotExistBox = driver.findElement(By.xpath("//*[@id='app']/div[1]/main/div/div[2]/div/div/div[4]/div/div/div/div"));
         Assert.assertTrue(userNotExistBox.isDisplayed());
-        //homePage.logInButton();
-        //Thread.sleep(3000);
         String expectedResult = "/login";
         String logInUrl = driver.getCurrentUrl();
         Assert.assertTrue(logInUrl.contains(expectedResult));

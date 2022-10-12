@@ -19,7 +19,11 @@ public class SignupTest extends BaseTest {
     @Test
     public void verifyYourAccountTest() throws InterruptedException {
         homePage.signUpButton();
-        signUpPage.signUpDataNameLastName();
+        String nameOfUser = "Goran Pincir";
+        String email = faker.internet().emailAddress();
+        String password = "123456";
+        String confirmPassword = "123456";
+        signUpPage.signUpPageData(nameOfUser, email, password, confirmPassword);
         Thread.sleep(2000);
         WebElement verifyYourAccountBox = driver.findElement(By.xpath("//*[@id='app']/div[4]/div/div/div[1]"));
         String expectedResult = "IMPORTANT: Verify your account";

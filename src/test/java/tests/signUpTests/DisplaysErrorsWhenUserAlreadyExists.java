@@ -20,7 +20,11 @@ public class DisplaysErrorsWhenUserAlreadyExists extends BaseTest {
     @Test
     public void DisplayErrorsWhenUserAlredyExistTest() throws InterruptedException {
         homePage.signUpButton();
-        signUpPage.signUpPageData();
+        String name = "Test Test";
+        String email = "admin@admin.com";
+        String password = "123654";
+        String confirmPassword = "123654";
+        signUpPage.signUpPageData(name, email,password, confirmPassword);
         Thread.sleep(2000);
         String expectedResults = "E-mail already exists";
         WebElement emailAlreadyExistsBox = driver.findElement(By.xpath("//*[@id='app']/div[1]/main/div/div[2]/div/div/div[3]/div/div/div/div/div[1]/ul/li"));

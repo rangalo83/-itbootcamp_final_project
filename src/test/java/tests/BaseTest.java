@@ -30,11 +30,12 @@ public abstract class BaseTest {
     public void beforeClass() {
         System.setProperty("webdriver.chrome.driver", "D:\\bootcamp\\browserDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         logInPage = new LogInPage(driver, driverWait);
         homePage = new HomePage(driver, driverWait);
         signUpPage = new SignUpPage(driver, driverWait);
-        /*faker = new Faker();*/
+        faker = new Faker();
 
     }
 

@@ -19,7 +19,9 @@ public class ChecksLoginInputTypes extends BaseTest {
 
     public void CheckInputTypesTest() {
         homePage.logInButton();
-        logInPage.enterLogInData();
+        String email = "admin@admin.com";
+        String password = "12345";
+        logInPage.enterLogInData(email, password);
         String expectedResultEmail = "email";
         String expectedResultPassword = "password";
         String actualResultEmail = logInPage.getEmailField().getAttribute("type");

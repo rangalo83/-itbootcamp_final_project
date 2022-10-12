@@ -20,7 +20,7 @@ public class LogInTests extends BaseTest {
     public void VisitsTheLoginPage() throws InterruptedException {
 
         homePage.logInButton();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         String expectedResult = "/login";
         String logInUrl = driver.getCurrentUrl();
         Assert.assertTrue(logInUrl.contains(expectedResult));

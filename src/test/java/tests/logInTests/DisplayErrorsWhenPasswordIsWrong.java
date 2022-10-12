@@ -18,7 +18,9 @@ public class DisplayErrorsWhenPasswordIsWrong extends BaseTest {
     @Test
     public void DisplayErrorsWhenPasswordIsWrongTest(){
         homePage.logInButton();
-        logInPage.enterValidEmailInvalidPassword();
+        String email = "admin@admin.com";
+        String fakePassword = faker.internet().password();
+        logInPage.enterLogInData(email, fakePassword);
         WebElement wrongPasswordBox = driver.findElement(By.xpath("//*[@id='app']/div[1]/main/div/div[2]/div/div/div[4]/div/div/div/div"));
         Assert.assertTrue(wrongPasswordBox.isDisplayed());
         String expectedResult = "/login";

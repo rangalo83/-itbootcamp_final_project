@@ -17,7 +17,9 @@ public class LoginTest extends BaseTest {
     @Test
     public void loginTest() throws InterruptedException {
         homePage.logInButton();
-        logInPage.enterLogInData();
+        String email = "admin@admin.com";
+        String password = "12345";
+        logInPage.enterLogInData(email, password);
         Thread.sleep(3000);
         String expectedResult = "/home";
         String userHomePageUrl = driver.getCurrentUrl();
