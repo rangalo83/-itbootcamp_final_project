@@ -53,25 +53,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.AuthRoutesTests.forbidsVisitsToProfileUrlIfNotAuthenticated">
-    <configuration name="AdminCitiesTests.createNewCityTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AdminCitiesTests" />
-      <option name="METHOD_NAME" value="createNewCityTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.AuthRoutesTests.forbidsVisitsToAdminUsersUrlIfNotAuthenticated">
     <configuration name="AdminCitiesTests.editCityTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -90,24 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminCitiesTests.visitsTheAdminCitiesPageAndListCitiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AdminCitiesTests" />
-      <option name="METHOD_NAME" value="visitsTheAdminCitiesPageAndListCitiesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AuthRoutesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -119,6 +83,42 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AuthRoutesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthRoutesTests.forbidsVisitsToAdminCitiesUrlIfNotAuthenticated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AuthRoutesTests" />
+      <option name="METHOD_NAME" value="forbidsVisitsToAdminCitiesUrlIfNotAuthenticated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthRoutesTests.forbidsVisitsToAdminUsersUrlIfNotAuthenticated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AuthRoutesTests" />
+      <option name="METHOD_NAME" value="forbidsVisitsToAdminUsersUrlIfNotAuthenticated" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AuthRoutesTests.forbidsVisitsToAdminUsersUrlIfNotAuthenticated" />
+        <item itemvalue="TestNG.AuthRoutesTests.forbidsVisitsToAdminCitiesUrlIfNotAuthenticated" />
         <item itemvalue="TestNG.AuthRoutesTests.forbidsVisitsToProfileUrlIfNotAuthenticated" />
         <item itemvalue="TestNG.AuthRoutesTests" />
         <item itemvalue="TestNG.AdminCitiesTests.editCityTest" />
-        <item itemvalue="TestNG.AdminCitiesTests.createNewCityTest" />
-        <item itemvalue="TestNG.AdminCitiesTests.visitsTheAdminCitiesPageAndListCitiesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665591963638</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Commiting forbidsVisitsToAdminCitiesUrlIfNotAuthenticated&quot;">
+      <created>1665592425551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665592425551</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +333,7 @@
     <MESSAGE value="&quot;Commiting createNewCityTest&quot;" />
     <MESSAGE value="&quot;Commiting ForbidsVisitsToHomeUrlIfNotAuthenticatedTest&quot;" />
     <MESSAGE value="&quot;Commiting forbidsVisitsToProfileUrlIfNotAuthenticatedTest&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting forbidsVisitsToProfileUrlIfNotAuthenticatedTest&quot;" />
+    <MESSAGE value="&quot;Commiting forbidsVisitsToAdminCitiesUrlIfNotAuthenticated&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting forbidsVisitsToAdminCitiesUrlIfNotAuthenticated&quot;" />
   </component>
 </project>
