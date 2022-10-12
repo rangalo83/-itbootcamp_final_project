@@ -8,8 +8,8 @@ public class AuthRoutesTests extends BaseTest {
     public void ForbidsVisitsToHomeUrlIfNotAuthenticated() {
     /*
     assert:
-    Ucitati /home stranu kada korisnik nije ulogovan
-    Verifikovati da se u url-u stranice javlja ruta /login
+    Load /home route when user is not loged in
+    Verify that url contains  /login rout
     */
         driver.get("https://vue-demo.daniel-avellaneda.com/home");
         String expectedResult = "/login";
@@ -17,5 +17,18 @@ public class AuthRoutesTests extends BaseTest {
         Assert.assertTrue(actualResult.contains(expectedResult));
 
     }
+    @Test
+    public void forbidsVisitsToProfileUrlIfNotAuthenticated(){
+        /*
+        assert:
+        Ucitati /profile stranu
+        Verifikovati da se u url-u stranice javlja ruta /login
+        */
+        driver.get("https://vue-demo.daniel-avellaneda.com/profile");
+        String expectedResult = "/login";
+        String actualResult = driver.getCurrentUrl();
+        Assert.assertTrue(actualResult.contains(expectedResult));
+    }
+
 
 }
