@@ -34,7 +34,7 @@ public abstract class BaseTest {
         driver = new ChromeDriver();
         driverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         logInPage = new LogInPage(driver, driverWait);
         homePage = new HomePage(driver, driverWait);
         signUpPage = new SignUpPage(driver, driverWait);
