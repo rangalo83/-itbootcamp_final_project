@@ -15,11 +15,12 @@ Verifikovati da se u url-u stranice javlja /login ruta
 public class DisplaysErrorsWhenUserDoesNotExist extends BaseTest {
 
     @Test
-    public void DisplaysErrorsWhenUserDoesNotExistTest() /*throws InterruptedException*/ {
+    public void DisplaysErrorsWhenUserDoesNotExistTest() throws InterruptedException {
         homePage.logInButton();
         String fakeEmail = faker.internet().emailAddress();
         String fakePassword = faker.internet().password();
         logInPage.enterLogInData(fakeEmail, fakePassword);
+        Thread.sleep(1000);
         WebElement userNotExistBox = driver.findElement(By.xpath("//*[@id='app']/div[1]/main/div/div[2]/div/div/div[4]/div/div/div/div"));
         Assert.assertTrue(userNotExistBox.isDisplayed());
         String expectedResult = "/login";

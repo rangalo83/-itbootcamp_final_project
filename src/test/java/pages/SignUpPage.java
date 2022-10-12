@@ -11,6 +11,7 @@ public class SignUpPage extends BasePage {
     protected By confirmPassword = By.id("confirmPassword");
     protected By singMeUpButton = By.xpath("//*[@id='app']/div[1]/main/div/div[2]/div/div/div[2]/span/form/div/div[5]/button");
 
+
     public SignUpPage(WebDriver driver, WebDriverWait driverWait) {
         super(driver, driverWait);
     }
@@ -26,6 +27,7 @@ public class SignUpPage extends BasePage {
     public WebElement getSingMeUpButton() {
         return getDriver().findElement(singMeUpButton);
     }
+
 
     public void signUpPageData(String name, String email, String password, String confirmPassword) {
 

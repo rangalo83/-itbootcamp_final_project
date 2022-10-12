@@ -10,13 +10,18 @@ public abstract class BasePage {
 
     protected WebDriver driver;
     protected WebDriverWait driverWait;
-
     protected By emailField = By.id("email");
     protected By passwordField = By.id("password");
+
 
     public BasePage(WebDriver driver, WebDriverWait driverWait) {
         this.driver = driver;
         this.driverWait = driverWait;
+    }
+
+    public BasePage(By emailField, By passwordField) {
+        this.emailField = emailField;
+        this.passwordField = passwordField;
     }
 
     public WebDriver getDriver() {
@@ -26,11 +31,12 @@ public abstract class BasePage {
     public WebDriverWait getDriverWait() {
         return driverWait;
     }
-    public WebElement getEmailField() {
+    public WebElement getEmailField(){
         return getDriver().findElement(emailField);
     }
 
-    public WebElement getPasswordField() {
+    public WebElement getPasswordField(){
         return getDriver().findElement(passwordField);
     }
+
 }
