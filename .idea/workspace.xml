@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8831f-4a1a-4b04-b873-c7039c0b7cb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AdminCitiesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CitiesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AdminCitiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AdminCitiesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksLoginInputTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/ChecksLoginInputTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplayErrorsWhenPasswordIsWrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplayErrorsWhenPasswordIsWrong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/DisplaysErrorsWhenUserDoesNotExist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/LogInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/logInTests/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/logInTests/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/signUpTests/DisplaysErrorsWhenUserAlreadyExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/DisplaysErrorsWhenUserAlreadyExists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/signUpTests/SignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/signUpTests/SignupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +55,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.tests">
+  <component name="RunManager" selected="TestNG.AdminCitiesTests.createNewCityTest">
     <configuration name="AdminCitiesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -78,6 +67,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AdminCitiesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminCitiesTests.createNewCityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="itbootcamp_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AdminCitiesTests" />
+      <option name="METHOD_NAME" value="createNewCityTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,24 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignupTest.verifyYourAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="itbootcamp_final_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.signUpTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.signUpTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.signUpTests.SignupTest" />
-      <option name="METHOD_NAME" value="verifyYourAccountTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="itbootcamp_final_project" />
       <extension name="coverage">
@@ -155,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AdminCitiesTests.createNewCityTest" />
         <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.AdminCitiesTests.visitsTheAdminCitiesPageAndListCitiesTest" />
         <item itemvalue="TestNG.AdminCitiesTests" />
         <item itemvalue="TestNG.SignupTest" />
-        <item itemvalue="TestNG.SignupTest.verifyYourAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665349315696</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;Commiting visitsTheAdminCitiesPageAndListCitiesTest&quot;">
+      <created>1665564581016</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665564581016</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +300,7 @@
     <MESSAGE value="&quot;Commiting checkSignUpInputTypesTest &quot;" />
     <MESSAGE value="&quot;Commiting DisplaysErrorsWhenUserAlreadyExistsTest &quot;" />
     <MESSAGE value="&quot;Commiting SignUpTest&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting SignUpTest&quot;" />
+    <MESSAGE value="&quot;Commiting visitsTheAdminCitiesPageAndListCitiesTest&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commiting visitsTheAdminCitiesPageAndListCitiesTest&quot;" />
   </component>
 </project>
